@@ -1,0 +1,21 @@
+# Node.js dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+package-lock.json
+
+# NestJS build files
+dist
+
+# Docker files (except .env)
+.dockerignore
+Dockerfile
+
+# Editor/IDE files
+.vscode
+.idea
+*.swp
+*.swo
+*.swn
+*.s~

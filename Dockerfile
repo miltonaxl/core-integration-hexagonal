@@ -6,7 +6,7 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm ci --omit=dev
+RUN npm install 
 
 COPY . .
 
@@ -19,7 +19,7 @@ WORKDIR /app
 COPY --from=builder /app/node_modules ./node_modules
 
 COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/.env ./.env # O copia solo el .env.example y configúralo dentro del contenedor
+COPY --from=builder /app/.env ./.env
 
 EXPOSE 3000
 
