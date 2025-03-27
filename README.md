@@ -156,4 +156,4 @@ Este proyecto está bajo la licencia **MIT**.
 
 ## ✨ Autor
 
-Desarrollado con ❤️ por **Milton**.
+Desarrollado por **Milton**.
